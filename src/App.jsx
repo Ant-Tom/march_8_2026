@@ -8,17 +8,7 @@ function App() {
 
   return (
     <div className="landing">
-      <div
-        className="ballpit-wrapper"
-        style={{
-          width: '100%',
-          maxWidth: '1080px',
-          aspectRatio: '1',
-          minHeight: '320px',
-          position: 'relative',
-          overflow: 'hidden',
-        }}
-      >
+      <div className="ballpit-wrapper">
         <Ballpit
           count={100}
           gravity={0.01}

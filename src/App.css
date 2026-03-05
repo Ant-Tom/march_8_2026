@@ -28,15 +28,18 @@ body {
 
 .landing {
   min-height: 100vh;
+  display: flex;
 }
 
 .ballpit-wrapper {
   position: relative;
+  flex: 1 1 auto;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   background: linear-gradient(180deg, #1a0f2e 0%, var(--bg-dark) 100%);
-  margin: 0 auto;
+  margin: 0;
 }
 
 .ballpit-wrapper canvas {
@@ -220,9 +223,6 @@ body {
 
 @media (max-width: 768px) {
   .landing {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     padding: 1.5rem 1rem 2.5rem;
   }
 

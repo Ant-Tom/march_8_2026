@@ -155,3 +155,23 @@
 .fingerprint-icon {
   opacity: 0.8;
 }
+
+@media (max-width: 768px) {
+  .reflective-content {
+    padding: 1.25rem;
+  }
+
+  .user-name {
+    font-size: 1.35rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .reflective-content {
+    padding: 1rem;
+  }
+
+  .user-name {
+    font-size: 1.2rem;
+  }
+}

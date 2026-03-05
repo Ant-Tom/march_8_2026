@@ -39,6 +39,10 @@ function App() {
             type="button"
             className="hero-cta"
             onClick={() => setShowReflectiveCard(true)}
+            onTouchEnd={(e) => {
+              e.preventDefault();
+              setShowReflectiveCard(true);
+            }}
           >
             главное лицо праздника!
           </button>
